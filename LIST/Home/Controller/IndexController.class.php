@@ -41,7 +41,7 @@ class IndexController extends Controller
         $sex = I('post.sex');
         $class = I('post.class');
         $major = I('post.major');
-        if ($name == '' || $position == '' || $summary == ''  || $grade == '' || $sex == '' || $class == '' || $major == '') {
+        if ($name == '' || $position == '' || $summary == '' || $grade == '' || $sex == '' || $class == '' || $major == '') {
             $res = array(
                 'Status' => 1,
                 'Mes' => "所填信息不能为空！"
@@ -67,14 +67,14 @@ class IndexController extends Controller
     */
     public function apiDel()
     {
-        $key=I("post.key");
-        if($key==''){
+        $key = I("post.key");
+        if ($key == '') {
             $res = array(
                 'Status' => 1,
                 'Mes' => "所填信息不能为空！"
             );
             $this->ajaxReturn($res);
-        }else{
+        } else {
             $or = D('Organiser');
             $or->delOrganiser($key);
             $res = array(
@@ -88,6 +88,12 @@ class IndexController extends Controller
     //获取员工数据接口
     public function apiGet()
     {
-
+        $or = D('Organiser');
+        $data = $or->getOrganiser();
+        $res = array(
+            'Data' => $data,
+            'Mes' => '查询成功！',
+        );
+        $this->ajaxReturn($res);
     }
 }

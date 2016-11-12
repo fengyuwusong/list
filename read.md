@@ -56,3 +56,25 @@
             Status
                 1   =>所填信息不能为空！
                 200 =>删除成功！
+    查询所有员工接口
+        url
+            =>"{:U('Home/index/apiGet')}"
+        参数
+            无
+        返回
+            {
+              "Data": [
+                {
+                  "key": "2015qiangbaobao",
+                  "name": "强宝宝",
+                  "grade": "2015",
+                  "sex": "0",
+                  "class": "2",
+                  "major": "软件工程",
+                  "summary": "没有",
+                  "motto": "",
+                  "position": "顾问"
+                }
+              ],
+              "Mes": "查询成功！"
+            }
