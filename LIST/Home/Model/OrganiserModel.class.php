@@ -47,4 +47,10 @@ class OrganiserModel extends Model
         $or=M("Organiser");
         $or->where($map)->delete();
     }
+    //查询所有员工
+    public function getOrganiser(){
+        $or=M("Organiser");
+        $data=$or->select();
+        return $data;
+    }
 }
