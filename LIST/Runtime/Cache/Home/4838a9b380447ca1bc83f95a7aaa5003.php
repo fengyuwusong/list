@@ -82,130 +82,58 @@
                 </div>
             </div> -->
             <!-- 添加员工 -->
-            <h2 class="sub-header">Add people</h2>
+            <h2 class="sub-header" style="margin-top:0px;">Add people</h2>
             <div class="table-responsive">
                 <table class="table table-striped">
-                    <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Header</th>
-                        <th>Header</th>
-                        <th>Header</th>
-                        <th>Header</th>
-                    </tr>
-                    </thead>
+                <!--     <thead>
+                        <tr>
+                            <th>key</th>
+                        <th>name</th>
+                        <th>sex</th>
+                        <th>grade</th>
+                        <th>major</th>
+                        <th>class</th>
+                        <th>position</th>
+                        <th>summary</th>
+                        <th>motto</th>
+                        </tr>
+                    </thead> -->
                     <tbody>
-                    <tr>
-                        <td>1,001</td>
-                        <td>Lorem</td>
-                        <td>ipsum</td>
-                        <td>dolor</td>
-                        <td>sit</td>
+                   <tr>
+                        <td>key</td>
+                        <td><input type="text"></td>
+                    </tr>
+                     <tr>
+                        <td>name</td>
+                        <td><input type="text"></td>
+                    </tr>
+                     <tr>
+                        <td>sex</td>
+                        <td><input type="text"></td>
                     </tr>
                     <tr>
-                        <td>1,002</td>
-                        <td>amet</td>
-                        <td>consectetur</td>
-                        <td>adipiscing</td>
-                        <td>elit</td>
+                        <td>grade</td>
+                        <td><input type="text"></td>
                     </tr>
                     <tr>
-                        <td>1,003</td>
-                        <td>Integer</td>
-                        <td>nec</td>
-                        <td>odio</td>
-                        <td>Praesent</td>
+                        <td>major</td>
+                        <td><input type="text"></td>
                     </tr>
                     <tr>
-                        <td>1,003</td>
-                        <td>libero</td>
-                        <td>Sed</td>
-                        <td>cursus</td>
-                        <td>ante</td>
+                        <td>class</td>
+                        <td><input type="text"></td>
                     </tr>
                     <tr>
-                        <td>1,004</td>
-                        <td>dapibus</td>
-                        <td>diam</td>
-                        <td>Sed</td>
-                        <td>nisi</td>
+                        <td>position</td>
+                        <td><textarea name="" id="" cols="50" rows="1"></textarea></td>
+                    </tr>
+                     <tr>
+                        <td>motto</td>
+                        <td><textarea name="" id="" cols="50" rows="1"></textarea></td>
                     </tr>
                     <tr>
-                        <td>1,005</td>
-                        <td>Nulla</td>
-                        <td>quis</td>
-                        <td>sem</td>
-                        <td>at</td>
-                    </tr>
-                    <tr>
-                        <td>1,006</td>
-                        <td>nibh</td>
-                        <td>elementum</td>
-                        <td>imperdiet</td>
-                        <td>Duis</td>
-                    </tr>
-                    <tr>
-                        <td>1,007</td>
-                        <td>sagittis</td>
-                        <td>ipsum</td>
-                        <td>Praesent</td>
-                        <td>mauris</td>
-                    </tr>
-                    <tr>
-                        <td>1,008</td>
-                        <td>Fusce</td>
-                        <td>nec</td>
-                        <td>tellus</td>
-                        <td>sed</td>
-                    </tr>
-                    <tr>
-                        <td>1,009</td>
-                        <td>augue</td>
-                        <td>semper</td>
-                        <td>porta</td>
-                        <td>Mauris</td>
-                    </tr>
-                    <tr>
-                        <td>1,010</td>
-                        <td>massa</td>
-                        <td>Vestibulum</td>
-                        <td>lacinia</td>
-                        <td>arcu</td>
-                    </tr>
-                    <tr>
-                        <td>1,011</td>
-                        <td>eget</td>
-                        <td>nulla</td>
-                        <td>Class</td>
-                        <td>aptent</td>
-                    </tr>
-                    <tr>
-                        <td>1,012</td>
-                        <td>taciti</td>
-                        <td>sociosqu</td>
-                        <td>ad</td>
-                        <td>litora</td>
-                    </tr>
-                    <tr>
-                        <td>1,013</td>
-                        <td>torquent</td>
-                        <td>per</td>
-                        <td>conubia</td>
-                        <td>nostra</td>
-                    </tr>
-                    <tr>
-                        <td>1,014</td>
-                        <td>per</td>
-                        <td>inceptos</td>
-                        <td>himenaeos</td>
-                        <td>Curabitur</td>
-                    </tr>
-                    <tr>
-                        <td>1,015</td>
-                        <td>sodales</td>
-                        <td>ligula</td>
-                        <td>in</td>
-                        <td>libero</td>
+                        <td>summary</td>
+                        <td><textarea name="" id="" cols="100" rows="4"></textarea></td>
                     </tr>
                     </tbody>
                 </table>
@@ -217,6 +145,8 @@
 <script src="/list/Public/js/bootstrap.min.js"></script>
 <script src="/list/Public/js/docs.min.js"></script>
 <script src="/list/Public/js/ie-emulation-modes-warning.js"></script>
+<script src="/list/Public/js/add.js"></script>
+
 
 </body>
 </html>

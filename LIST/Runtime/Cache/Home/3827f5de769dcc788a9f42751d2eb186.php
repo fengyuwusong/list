@@ -6,7 +6,6 @@
 </head>
 <link rel="stylesheet" href="/list/Public/css/bootstrap.min.css">
 <link rel="stylesheet" href="/list/Public/css/dashboard.css">
-
 <body>
 
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -82,20 +81,24 @@
                 </div>
             </div> -->
             <!-- 添加员工 -->
-            <h2 class="sub-header">Add people</h2>
+            <h2 class="sub-header">Show people</h2>
             <div class="table-responsive">
                 <table class="table table-striped">
                     <thead>
                     <tr>
-                        <th>#</th>
-                        <th>Header</th>
-                        <th>Header</th>
-                        <th>Header</th>
-                        <th>Header</th>
+                        <th>key</th>
+                        <th>name</th>
+                        <th>sex</th>
+                        <th>grade</th>
+                        <th>major</th>
+                        <th>class</th>
+                        <th>position</th>
+                        <th>summary</th>
+                        <th>motto</th>
                     </tr>
                     </thead>
-                    <tbody>
-                    <tr>
+                    <tbody class="showMes">
+                   <!--  <tr>
                         <td>1,001</td>
                         <td>Lorem</td>
                         <td>ipsum</td>
@@ -206,8 +209,8 @@
                         <td>ligula</td>
                         <td>in</td>
                         <td>libero</td>
-                    </tr>
-                    </tbody>
+                    </tr>-->
+                    </tbody> 
                 </table>
             </div>
         </div>
@@ -217,6 +220,10 @@
 <script src="/list/Public/js/bootstrap.min.js"></script>
 <script src="/list/Public/js/docs.min.js"></script>
 <script src="/list/Public/js/ie-emulation-modes-warning.js"></script>
+<script src="/list/Public/js/index.js"></script>
+<script type="text/javascript">
+    var getPeopleURL="<?php echo U('Home/index/apiGet');?>";
+</script>
 
 </body>
 </html>
