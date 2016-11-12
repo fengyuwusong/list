@@ -14,7 +14,7 @@ class IndexController extends Controller
     //添加员工页面
     public function add()
     {
-
+        $this->display();
     }
 
     /*

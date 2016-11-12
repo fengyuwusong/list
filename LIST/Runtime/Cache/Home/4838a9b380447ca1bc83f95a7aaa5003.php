@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>首页</title>
+    <title>添加员工</title>
 </head>
 <link rel="stylesheet" href="/list/Public/css/bootstrap.min.css">
 <link rel="stylesheet" href="/list/Public/css/dashboard.css">
