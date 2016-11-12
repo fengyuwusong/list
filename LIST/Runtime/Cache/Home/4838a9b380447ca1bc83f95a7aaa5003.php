@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>添加员工</title>
+    <style type="text/css">
+        span{
+            visibility: hidden; 
+            color:red;
+        }
+        textarea{
+            resize:none;
+        }
+    </style>
 </head>
 <link rel="stylesheet" href="/list/Public/css/bootstrap.min.css">
 <link rel="stylesheet" href="/list/Public/css/dashboard.css">
-
 <body>
-
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -82,50 +89,46 @@
                 </div>
             </div> -->
             <!-- 添加员工 -->
-            <h2 class="sub-header" style="margin-top:0px;">Add people</h2>
+            <h2 class="sub-header">Add people</h2>
             <div class="table-responsive">
                 <table class="table table-striped">
-                    <form action="" method="">
+                    <form action="<?php echo U('Home/index/apiAdd');?>" method="post">
                     <tbody>
                    <tr>
-                        <td>key</td>
-                        <td><input type="text"></td>
-                    </tr>
-                     <tr>
                         <td>name</td>
-                        <td><input type="text"></td>
+                        <td><input type="text" class="name"></td>
+                        <td>grade</td>
+                        <td><input type="text" class="grade"></td>
                     </tr>
                      <tr>
                         <td>sex</td>
-                        <td><input type="text"></td>
-                    </tr>
-                    <tr>
-                        <td>grade</td>
-                        <td><input type="text"></td>
-                    </tr>
-                    <tr>
+                        <td><input type="text" class="sex"></td>
                         <td>major</td>
-                        <td><input type="text"></td>
+                        <td><input type="text" class="major"></td>
                     </tr>
                     <tr>
                         <td>class</td>
-                        <td><input type="text"></td>
-                    </tr>
-                    <tr>
+                        <td><input type="text" class="class"></td>
                         <td>position</td>
-                        <td><textarea name="" id="" cols="50" rows="1"></textarea></td>
+                        <td><textarea name="" id="position" cols="50" rows="1"></textarea></td>
                     </tr>
                      <tr>
-                        <td>motto</td>
-                        <td><textarea name="" id="" cols="50" rows="1"></textarea></td>
+                        <td>birthday</td>
+                        <td colspan="3"><input type="text" id="birthday"></td>
+                        <!-- birthday格式 -->
                     </tr>
                     <tr>
                         <td>summary</td>
-                        <td><textarea name="" id="" cols="100" rows="4"></textarea></td>
+                        <td colspan="3"><textarea name="" id="summary" cols="100" rows="4"></textarea></td>
+                    </tr>
+                     <tr>
+                        <td>motto</td>
+                        <td colspan="3"><textarea name="" id="motto" cols="50" rows="1"></textarea></td>
                     </tr>
                     </tbody>
                     </form>
                 </table>
+                <input type="button" class="submit" value="">
             </div>
         </div>
     </div>
@@ -135,7 +138,9 @@
 <script src="/list/Public/js/docs.min.js"></script>
 <script src="/list/Public/js/ie-emulation-modes-warning.js"></script>
 <script src="/list/Public/js/add.js"></script>
-
+<script type="text/javascript">
+    var addPeopleURL='<?php echo U('Home/index/apiAdd');?>';
+</script>
 
 </body>
 </html>

@@ -283,3 +283,126 @@ SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0253s ]
 SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0109s ]
 SQL: SELECT * FROM `tp_organiser`  [ RunTime:0.0008s ]
 
+[ 2016-11-12T20:51:12+08:00 ] ::1 /list/index.php/Home/index/apiGet.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013602s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0323s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `tp_organiser`  [ RunTime:0.0009s ]
+
+[ 2016-11-12T20:54:02+08:00 ] ::1 /list/index.php/Home/index/apiGet.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017939s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `tp_organiser`  [ RunTime:0.0010s ]
+
+[ 2016-11-12T22:14:12+08:00 ] ::1 /list/index.php/Home/index/apiAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024745s ]
+
+[ 2016-11-12T22:15:50+08:00 ] ::1 /list/index.php/Home/index/apiAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014111s ]
+
+[ 2016-11-12T22:17:33+08:00 ] ::1 /list/index.php/Home/index/apiAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013680s ]
+
+[ 2016-11-12T22:17:36+08:00 ] ::1 /list/index.php/Home/index/apiAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015867s ]
+
+[ 2016-11-12T22:18:31+08:00 ] ::1 /list/index.php/Home/index/apiAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011714s ]
+
+[ 2016-11-12T22:19:04+08:00 ] ::1 /list/index.php/Home/index/apiAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012510s ]
+
+[ 2016-11-12T22:19:05+08:00 ] ::1 /list/index.php/Home/index/apiAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011915s ]
+
+[ 2016-11-12T22:19:06+08:00 ] ::1 /list/index.php/Home/index/apiAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012712s ]
+
+[ 2016-11-12T22:22:40+08:00 ] ::1 /list/index.php/Home/index/apiAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012653s ]
+
+[ 2016-11-12T22:24:34+08:00 ] ::1 /list/index.php/Home/index/apiAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012389s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0442s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0107s ]
+SQL: INSERT INTO `tp_organiser` (`key`,`name`,`position`,`summary`,`motto`,`grade`,`sex`,`class`,`major`) VALUES ('2015niriqiang','niriqiang','顾问','啦啦啦啦我很棒哦','','2015','男','2','软件工程') [ RunTime:0.0017s ]
+
+[ 2016-11-12T22:24:58+08:00 ] ::1 /list/index.php/Home/index/apiGet.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021221s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0362s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `tp_organiser`  [ RunTime:0.0009s ]
+
+[ 2016-11-12T22:26:51+08:00 ] ::1 /list/index.php/Home/index/apiAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012200s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0526s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0116s ]
+ERR: 1062:Duplicate entry '2015niriqiang' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_organiser` (`key`,`name`,`position`,`summary`,`motto`,`grade`,`sex`,`class`,`major`) VALUES ('2015niriqiang','倪日强','顾问','啦啦啦啦我很棒哦','啦啦啦啦我真的很棒哦','2015','男','2','软件工程')
+ERR: 1062:Duplicate entry '2015niriqiang' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_organiser` (`key`,`name`,`position`,`summary`,`motto`,`grade`,`sex`,`class`,`major`) VALUES ('2015niriqiang','倪日强','顾问','啦啦啦啦我很棒哦','啦啦啦啦我真的很棒哦','2015','男','2','软件工程')
+
+[ 2016-11-12T22:26:58+08:00 ] ::1 /list/index.php/Home/index/apiGet.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019197s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0341s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `tp_organiser`  [ RunTime:0.0008s ]
+
+[ 2016-11-12T22:27:54+08:00 ] ::1 /list/index.php/Home/index/apiAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012415s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0268s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0120s ]
+SQL: INSERT INTO `tp_organiser` (`key`,`name`,`position`,`summary`,`motto`,`grade`,`sex`,`class`,`major`) VALUES ('2016niriqiang','倪日强','顾问','啦啦啦啦我很棒哦','啦啦啦啦我真的很棒哦','2016','男','2','软件工程') [ RunTime:0.0010s ]
+
+[ 2016-11-12T22:27:58+08:00 ] ::1 /list/index.php/Home/index/apiAdd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012012s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0261s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0112s ]
+ERR: 1062:Duplicate entry '2016niriqiang' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_organiser` (`key`,`name`,`position`,`summary`,`motto`,`grade`,`sex`,`class`,`major`) VALUES ('2016niriqiang','倪日强','顾问','啦啦啦啦我很棒哦','啦啦啦啦我真的很棒哦','2016','男','2','软件工程')
+ERR: 1062:Duplicate entry '2016niriqiang' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `tp_organiser` (`key`,`name`,`position`,`summary`,`motto`,`grade`,`sex`,`class`,`major`) VALUES ('2016niriqiang','倪日强','顾问','啦啦啦啦我很棒哦','啦啦啦啦我真的很棒哦','2016','男','2','软件工程')
+
+[ 2016-11-12T22:28:08+08:00 ] ::1 /list/index.php/Home/index/apiGet.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022051s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0345s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `tp_organiser`  [ RunTime:0.0010s ]
+

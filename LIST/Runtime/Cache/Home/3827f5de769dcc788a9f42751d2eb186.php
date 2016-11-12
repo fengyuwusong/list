@@ -92,6 +92,7 @@
                         <th>grade</th>
                         <th>major</th>
                         <th>class</th>
+                        <th>birthday</th>
                         <th>position</th>
                         <th>motto</th>
                         <th>summary</th>
