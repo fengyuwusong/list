@@ -85,19 +85,7 @@
             <h2 class="sub-header" style="margin-top:0px;">Add people</h2>
             <div class="table-responsive">
                 <table class="table table-striped">
-                <!--     <thead>
-                        <tr>
-                            <th>key</th>
-                        <th>name</th>
-                        <th>sex</th>
-                        <th>grade</th>
-                        <th>major</th>
-                        <th>class</th>
-                        <th>position</th>
-                        <th>summary</th>
-                        <th>motto</th>
-                        </tr>
-                    </thead> -->
+                    <form action="" method="">
                     <tbody>
                    <tr>
                         <td>key</td>
@@ -136,6 +124,7 @@
                         <td><textarea name="" id="" cols="100" rows="4"></textarea></td>
                     </tr>
                     </tbody>
+                    </form>
                 </table>
             </div>
         </div>

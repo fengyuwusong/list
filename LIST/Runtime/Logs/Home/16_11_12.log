@@ -179,3 +179,107 @@ SQL: SELECT * FROM `tp_organiser`  [ RunTime:0.0009s ]
 [ 2016-11-12T17:35:44+08:00 ] ::1 /list/index.php/home/index/addd.html
 ERR: 非法操作:addd
 
+[ 2016-11-12T20:17:58+08:00 ] ::1 /list/index.php/Home/index/apiGet.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025974s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0245s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `tp_organiser`  [ RunTime:0.0008s ]
+
+[ 2016-11-12T20:22:35+08:00 ] ::1 /list/index.php/Home/index/apiGet.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021898s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0328s ]
+SQL: SELECT * FROM `tp_organiser`  [ RunTime:0.0012s ]
+
+[ 2016-11-12T20:25:31+08:00 ] ::1 /list/index.php/Home/index/apiGet.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020323s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0374s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `tp_organiser`  [ RunTime:0.0013s ]
+
+[ 2016-11-12T20:27:34+08:00 ] ::1 /list/index.php/Home/index/apiGet.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020271s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0322s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `tp_organiser`  [ RunTime:0.0014s ]
+
+[ 2016-11-12T20:33:10+08:00 ] ::1 /list/index.php/Home/index/apiGet.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010102s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0343s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `tp_organiser`  [ RunTime:0.0008s ]
+
+[ 2016-11-12T20:33:49+08:00 ] ::1 /list/index.php/Home/index/apiGet.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015396s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `tp_organiser`  [ RunTime:0.0010s ]
+
+[ 2016-11-12T20:37:00+08:00 ] ::1 /list/index.php/Home/index/apiGet.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013948s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0322s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `tp_organiser`  [ RunTime:0.0007s ]
+
+[ 2016-11-12T20:37:42+08:00 ] ::1 /list/index.php/Home/index/apiGet.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014574s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0301s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `tp_organiser`  [ RunTime:0.0008s ]
+
+[ 2016-11-12T20:40:21+08:00 ] ::1 /list/index.php/Home/index/apiGet.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019588s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0319s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_organiser`  [ RunTime:0.0020s ]
+
+[ 2016-11-12T20:40:54+08:00 ] ::1 /list/index.php/Home/index/apiGet.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017436s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0319s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `tp_organiser`  [ RunTime:0.0010s ]
+
+[ 2016-11-12T20:43:22+08:00 ] ::1 /list/index.php/Home/index/apiGet.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012297s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0233s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `tp_organiser`  [ RunTime:0.0007s ]
+
+[ 2016-11-12T20:44:06+08:00 ] ::1 /list/index.php/Home/index/apiGet.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017864s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0355s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0286s ]
+SQL: SELECT * FROM `tp_organiser`  [ RunTime:0.0009s ]
+
+[ 2016-11-12T20:44:34+08:00 ] ::1 /list/index.php/Home/index/apiGet.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013781s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0253s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `tp_organiser`  [ RunTime:0.0008s ]
+
