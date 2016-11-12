@@ -20,6 +20,7 @@
                 sex     => 性别
                 class   => 班级
                 major   => 专业
+                birthday=> 生日 时间戳
             可选=>
                 motto   => 座右铭
         返回
@@ -68,12 +69,13 @@
                   "key": "2015qiangbaobao",
                   "name": "强宝宝",
                   "grade": "2015",
-                  "sex": "0",
+                  "sex": "男",
                   "class": "2",
                   "major": "软件工程",
                   "summary": "没有",
                   "motto": "",
-                  "position": "顾问"
+                  "position": "顾问",
+                  "birthday": "1478961923"
                 }
               ],
               "Mes": "查询成功！"

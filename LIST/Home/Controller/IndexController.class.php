@@ -41,7 +41,8 @@ class IndexController extends Controller
         $sex = I('post.sex');
         $class = I('post.class');
         $major = I('post.major');
-        if ($name == '' || $position == '' || $summary == '' || $grade == '' || $sex == '' || $class == '' || $major == '') {
+        $birthday = I('post.birthday');
+        if ($name == '' || $position == '' || $summary == '' || $grade == '' || $sex == '' || $class == '' || $major == '' || $birthday == '') {
             $res = array(
                 'Status' => 1,
                 'Mes' => "所填信息不能为空！"
@@ -49,7 +50,7 @@ class IndexController extends Controller
             $this->ajaxReturn($res);
         } else {
             $or = D('Organiser');
-            $or->addOrganiser($name, $position, $summary, $motto, $grade, $sex, $class, $major);
+            $or->addOrganiser($name, $position, $summary, $motto, $grade, $sex, $class, $major, $birthday);
             $res = array(
                 'Status' => 200,
                 '$Mes' => "添加成功！"

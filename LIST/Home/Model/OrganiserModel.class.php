@@ -21,13 +21,14 @@ class OrganiserModel extends Model
      * sex 性别
      * class 班级
      * major 专业
+     * birthday 生日 时间戳
      */
-    public function addOrganiser($name, $positon, $summary, $motto, $grade, $sex, $class, $major)
+    public function addOrganiser($name, $positon, $summary, $motto, $grade, $sex, $class, $major, $birthday)
     {
         $key = $grade;
-        $chinese=new \Org\Util\ChineseSpell();
-        $spell=iconv("UTF-8","gb2312",$name);
-        $key.=$chinese->getFullSpell($spell);
+        $chinese = new \Org\Util\ChineseSpell();
+        $spell = iconv("UTF-8", "gb2312", $name);
+        $key .= $chinese->getFullSpell($spell);
         $or = M('Organiser');
         $add = array(
             'key' => $key,
@@ -38,19 +39,24 @@ class OrganiserModel extends Model
             'grade' => $grade,
             'sex' => $sex,
             'class' => $class,
-            'major' => $major
+            'major' => $major,
+            'birthday' => $birthday
         );
         $or->add($add);
     }
-    public function delOrganiser($key){
-        $map['key']=$key;
-        $or=M("Organiser");
+
+    public function delOrganiser($key)
+    {
+        $map['key'] = $key;
+        $or = M("Organiser");
         $or->where($map)->delete();
     }
+
     //查询所有员工
-    public function getOrganiser(){
-        $or=M("Organiser");
-        $data=$or->select();
+    public function getOrganiser()
+    {
+        $or = M("Organiser");
+        $data = $or->select();
         return $data;
     }
 }
