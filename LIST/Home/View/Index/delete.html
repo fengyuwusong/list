@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,10 +13,8 @@
         }
     </style>
 </head>
-<link rel="stylesheet" href="/list/Public/css/bootstrap.min.css">
-<link rel="stylesheet" href="/list/Public/css/dashboard.css">
-<link rel="stylesheet" href="/list/Public/bootstrap-datetimepicker-master/css/bootstrap-datetimepicker.min.css">
-
+<link rel="stylesheet" href="__PUBLIC__/css/bootstrap.min.css">
+<link rel="stylesheet" href="__PUBLIC__/css/dashboard.css">
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container-fluid">
@@ -94,7 +92,7 @@
             <h2 class="sub-header">Add people</h2>
             <div class="table-responsive">
                 <table class="table table-striped">
-                    <form action="<?php echo U('Home/index/apiAdd');?>" method="post">
+                    <form action="{:U('Home/index/apiAdd')}" method="post">
                     <tbody>
                    <tr>
                         <td>name</td>
@@ -116,15 +114,7 @@
                     </tr>
                      <tr>
                         <td>birthday</td>
-                       <!--  <td colspan="2">
-                        <input type="text" id="birthday">
-                        </td> -->
-                        <td><div class="right col-xs-6 text-left">
-        <div class="input-group">
-          <input type="text" class="form-control form_datetime" id="addtime" name="addtime" value="" placeholder="">
-          <span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-time" aria-hidden="true"></span></span>
-        </div>
-    </div></td>
+                        <td colspan="3"><input type="text" id="birthday"></td>
                         <!-- birthday格式 -->
                     </tr>
                     <tr>
@@ -138,22 +128,18 @@
                     </tbody>
                     </form>
                 </table>
-                <input type="button" class="submit" value="提交" style="float:right;margin-right:100px;">
+                <input type="button" class="submit" value="">
             </div>
         </div>
     </div>
 </div>
-<script src="/list/Public/js/jquery.min.js"></script>
-<script src="/list/Public/js/bootstrap.min.js"></script>
-<script src="/list/Public/bootstrap-datetimepicker-master/js/bootstrap-datetimepicker.min.js"></script>
-<script src="/list/Public/bootstrap-datetimepicker-master/js/locales/bootstrap-datetimepicker.zh-CN.js"></script>
-
-<script src="/list/Public/js/docs.min.js"></script>
-<script src="/list/Public/js/ie-emulation-modes-warning.js"></script>
-<script src="/list/Public/js/add.js"></script>
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/js/docs.min.js"></script>
+<script src="__PUBLIC__/js/ie-emulation-modes-warning.js"></script>
+<script src="__PUBLIC__/js/add.js"></script>
 <script type="text/javascript">
-    var addPeopleURL='<?php echo U('Home/index/apiAdd');?>';
-    $('.form_datetime').datetimepicker();
+    var addPeopleURL='{:U('Home/index/apiAdd')}';
 </script>
 
 </body>

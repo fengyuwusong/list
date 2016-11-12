@@ -430,3 +430,11 @@ SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0061s ]
 SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0028s ]
 SQL: SELECT * FROM `tp_organiser`  [ RunTime:0.0005s ]
 
+[ 2016-11-12T23:06:50+08:00 ] ::1 /list/index.php/Home/index/apiGet.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022233s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0207s ]
+SQL: SHOW COLUMNS FROM `tp_organiser` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `tp_organiser`  [ RunTime:0.0007s ]
+

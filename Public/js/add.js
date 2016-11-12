@@ -1,5 +1,7 @@
 $(document).ready(function () {
+
   $(".submit").on("click",function(e){
+    var birthday=$("#birthday").val();
        addPeople();
     })
 	function addPeople() {
@@ -14,12 +16,13 @@ $(document).ready(function () {
                 class:$(".class").val(),
                 position:$("#position").val(),
                 motto:$("#motto").val(),
-                // birthday:$("#birthday").val(),
+                birthday:birthday,
                 summary:$("#summary").val(),
              },
             dataType: "json",
             success: function (res) {
                console.log(res);
+
                if(res.Status==1) alert(res.Mes);
                else if(res.Status==200) alert(res.Mes);
             }

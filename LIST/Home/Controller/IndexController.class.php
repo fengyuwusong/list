@@ -16,6 +16,10 @@ class IndexController extends Controller
     {
         $this->display();
     }
+     public function delete()
+    {
+        $this->display();
+    }
 
     /*
      * 添加员工接口
