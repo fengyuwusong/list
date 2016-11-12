@@ -42,7 +42,7 @@
             =>"{:U('Home/index/apiDel')}"
         参数
             必须=>
-                key =>员工唯一key值 年级+姓名全拼
+                key =>员工唯一key值 年级+姓名全拼 例如2015qiangbaobao
         返回
             1=>
                 {
